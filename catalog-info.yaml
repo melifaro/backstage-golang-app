@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-golang-app
+  description: backstage-golang-app
+  annotations: 
+    github.com/project-slug: melifaro/backstage-golang-app
+    backstage.io/source-ref: "https://github.com/melifaro/backstage-golang-app"
+    backstage.io/techdocs-ref: url:https://github.com/melifaro/backstage-golang-app
+    backstage.io/github-actions-id: https://github.com/melifaro/backstage-golang-app
+spec:
+  type: service
+  lifecycle: experimental
+  owner: melifaro
